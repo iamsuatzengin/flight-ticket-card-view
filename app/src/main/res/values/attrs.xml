@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FlightTicketView">
+        <attr name="from" format="string"/>
+        <attr name="to" format="string"/>
+        <attr name="start_date_time" format="string"/>
+        <attr name="end_date_time" format="string"/>
+        <attr name="flight_time" format="string"/>
+        <attr name="company_icon" format="reference"/>
+        <attr name="flight_number" format="string"/>
+        <attr name="price" format="string"/>
+    </declare-styleable>
+</resources>
