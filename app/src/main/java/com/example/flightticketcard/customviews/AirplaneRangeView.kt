@@ -66,13 +66,6 @@ class AirplaneRangeView @JvmOverloads constructor(
 
     override fun onDraw(canvas: Canvas) {
         super.onDraw(canvas)
-        println(
-            """
-                width: $width / height: $height -- ${width / 2}
-                measuredWidth: $measuredWidth / measuredHeight: $measuredHeight
-                airplane -> width: ${airplane?.intrinsicWidth} / height ${airplane?.intrinsicHeight}
-            """.trimIndent()
-        )
 
         val firstCx = paddingStart + 16f + marginStart
         val cy = (paddingTop + paddingBottom).toFloat()

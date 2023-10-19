@@ -23,7 +23,7 @@ class FlightTicketView @JvmOverloads constructor(
     )
 
     private val cardBackgroundPaint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
-        color = resources.getColor(ticketBackgroundColor, null)
+        color = Color.LTGRAY
     }
 
     private val circlePaint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
@@ -31,7 +31,7 @@ class FlightTicketView @JvmOverloads constructor(
     }
 
     private val linePaint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
-        color = resources.getColor(separatorLineColor, null)
+        color = Color.BLACK
         strokeWidth = 4f
         style = Paint.Style.STROKE
         pathEffect = DashPathEffect(floatArrayOf(16f, 3f), 0f)

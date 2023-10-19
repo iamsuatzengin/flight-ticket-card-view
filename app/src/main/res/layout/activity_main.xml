@@ -10,16 +10,16 @@
     <com.example.flightticketcard.customviews.FlightTicketView
         android:id="@+id/ticket"
         android:layout_width="match_parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:from="İstanbul"
-        app:to="İzmir"
-        app:flight_time="1h 30m"
-        app:start_date_time="9.30AM\n06.10.2023"
-        app:end_date_time="11.00AM\n06.10.2023"
+        android:layout_height="wrap_content"
         app:company_icon="@drawable/ic_airplane_comp"
+        app:end_date_time="11.00AM\n06.10.2023"
         app:flight_number="A234KML2"
-        app:price="$350"
+        app:flight_time="1h 30m"
+        app:from="İstanbul"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_height="wrap_content"/>
+        app:price="$350"
+        app:start_date_time="9.30AM\n06.10.2023"
+        app:to="İzmir" />
 </androidx.constraintlayout.widget.ConstraintLayout>
